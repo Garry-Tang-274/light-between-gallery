@@ -6,6 +6,8 @@ A photographic exhibition with a continuous 3D scene, a rotating image atlas and
 
 [打开公开演示 / Open demo](https://garry-tang-274.github.io/light-between-gallery/)
 
+![光隙公开演示的序厅，三张摄影作品悬于深色展场](media/preview.png)
+
 ## 先运行
 
 需要 Node.js 20.19+ 或 22.12+。在项目目录运行：
@@ -36,6 +38,8 @@ Three.js handles the scene, GSAP handles transitions, and Vite builds the static
 1. 将 `tools/curation.example.json` 复制为 `tools/curation.json`，填写你有权展示的照片路径、唯一 ID、标题和分类。自己的清单默认被 Git 忽略。
 2. 安装 Python 与 Pillow，运行 `python tools/prepare_photos.py`。
 3. 查看 `public/photos.json` 与生成副本，确认只含你打算公开的照片，再运行 `npm run build`。
+
+分类使用 `wild`、`street`、`city`、`night`、`nature`。沿用示例中的 `p001`、`p002`、`p005` ID 更换作品，可以保留序厅构图；其他 ID 的序厅位置由 `src/world.js` 中的 `homePoses`、`mobileHome` 配置。标题、首页注记与关于页图片也应同步修改。全部作品仍可在漫游、星图和光桌中浏览。
 
 预处理只生成 360px、720px 与最长边 2560px 的 WebP 副本，不改原图、不重新调色、不携带原始 EXIF/GPS。清单中 `include=false` 的条目不生成。图像路径须可由本机读取；网页不会扫描你的文件夹。
 
