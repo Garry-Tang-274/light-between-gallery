@@ -1,0 +1,53 @@
+[
+  {
+    "id": "p001",
+    "title": "人与鸬鹚",
+    "category": "street",
+    "filename": "p001.jpg",
+    "width": 4024,
+    "height": 6048,
+    "camera": "",
+    "date": "",
+    "space": "/photos/p001-space.webp",
+    "thumb": "/photos/p001-thumb.webp",
+    "src": "/photos/p001-view.webp",
+    "featured": true,
+    "status": "finished",
+    "editNote": "",
+    "selectionNote": ""
+  },
+  {
+    "id": "p002",
+    "title": "江畔灯火",
+    "category": "city",
+    "filename": "p002.jpg",
+    "width": 21494,
+    "height": 3663,
+    "camera": "",
+    "date": "",
+    "space": "/photos/p002-space.webp",
+    "thumb": "/photos/p002-thumb.webp",
+    "src": "/photos/p002-view.webp",
+    "featured": true,
+    "status": "finished",
+    "editNote": "",
+    "selectionNote": ""
+  },
+  {
+    "id": "p005",
+    "title": "旷野公路",
+    "category": "wild",
+    "filename": "p005.webp",
+    "width": 1536,
+    "height": 864,
+    "camera": "",
+    "date": "",
+    "space": "/photos/p005-space.webp",
+    "thumb": "/photos/p005-thumb.webp",
+    "src": "/photos/p005-view.webp",
+    "featured": true,
+    "status": "finished",
+    "editNote": "",
+    "selectionNote": ""
+  }
+]

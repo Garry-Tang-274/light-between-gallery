@@ -1,0 +1,26 @@
+[
+  {
+    "id": "p001",
+    "title": "人与鸬鹚",
+    "category": "street",
+    "include": true,
+    "featured": true,
+    "source": "work/demo-originals/p001.jpg"
+  },
+  {
+    "id": "p002",
+    "title": "江畔灯火",
+    "category": "city",
+    "include": true,
+    "featured": true,
+    "source": "work/demo-originals/p002.jpg"
+  },
+  {
+    "id": "p005",
+    "title": "旷野公路",
+    "category": "wild",
+    "include": true,
+    "featured": true,
+    "source": "work/demo-originals/p005.webp"
+  }
+]
